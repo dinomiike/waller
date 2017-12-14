@@ -1,6 +1,6 @@
 {
   "name": "waller",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Terminal screen separator, for those hard to read logs.",
   "main": "index.js",
   "scripts": {
