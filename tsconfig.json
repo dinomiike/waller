@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "sourceMap": true,
+    "rootDir": "src",
+    "outDir": "lib/waller",
+    "noEmitOnError": true
+  },
+  "exclude": [
+    "typings/browser.d.ts",
+    "typings/browser",
+    "node_modules"
+  ],
+  "files": [
+    "src/index.ts"
+  ]
+}

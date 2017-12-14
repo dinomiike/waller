@@ -1,0 +1,40 @@
+{
+  "name": "waller",
+  "version": "0.0.0",
+  "description": "Terminal screen separator, for those hard to read logs.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "clean": "del-cli lib/waller",
+    "test": "mocha -r ts-node/register src/**/*.spec.ts"
+  },
+  "bin": {
+    "waller": "bin/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dinomiike/waller.git"
+  },
+  "keywords": [
+    "cli",
+    "separator"
+  ],
+  "author": "Miike Ramos <miike@secretdino.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dinomiike/waller/issues"
+  },
+  "homepage": "https://github.com/dinomiike/waller#readme",
+  "devDependencies": {
+    "@types/chai": "^4.0.8",
+    "@types/mocha": "^2.2.44",
+    "@types/node": "^8.0.53",
+    "chai": "^4.1.2",
+    "del-cli": "^1.1.0",
+    "mocha": "^4.0.1",
+    "path": "^0.12.7",
+    "ts-loader": "^3.1.1",
+    "ts-node": "^3.3.0",
+    "typescript": "^2.6.1"
+  }
+}
