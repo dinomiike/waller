@@ -6,7 +6,8 @@
   "scripts": {
     "build": "tsc",
     "clean": "del-cli lib/waller",
-    "test": "mocha -r ts-node/register src/**/*.spec.ts"
+    "test": "mocha -r ts-node/register src/**/*.spec.ts",
+    "release": "release-it"
   },
   "bin": {
     "waller": "bin/cli.js"
